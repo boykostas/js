@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Домашняя работа №2</h2>
+    <script>
+      // Task #1
+      // let num1 = Number(prompt('Введите первое число: '));
+      // let num2 = Number(prompt('Введите второе число: '));
+
+      // if ((num1 > 1 || num1 == 1) && (num2 > 3 || num2 == 3)) {
+      //     console.log('Все верно!')
+      // } else {
+      //     console.log('Вы где то допустили ошибку');
+      // }
+
+      // Task #2
+      // let test = true;
+      // (test == false) ? (console.log('+++')) : (console.log('---'));
+
+      // Task #3
+      //   let day = Number(prompt("Введите число от 1 до 31"));
+      //   if (day <= 10) {
+      //     console.log(day + " - это число из первой декады месяца");
+      //   } else if (day <= 20 && day > 10) {
+      //     console.log(day + " - это число из второй декады месяца");
+      //   } else if (day <= 31 && day > 20) {
+      //     console.log(day + " - это число из третьей декады месяца");
+      //   } else {
+      //     console.log(day + " - Вы ввели неверное число");
+      //   }
+
+      // Task #4
+      const number = Number(prompt("Введите число:"));
+      const hundreds = Math.trunc((number % 1000) / 100);
+      const dozens = Math.trunc((number % 100) / 10);
+      const pieces = Math.trunc(number % 10);
+      console.log(`В числе ${number} количесвто сотен: ${hundreds}, десятков: ${dozens}, единиц: ${pieces}`);
+      
+    </script>
+  </body>
+</html>
