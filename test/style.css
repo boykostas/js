@@ -2,4 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn {
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
