@@ -32,34 +32,34 @@
 // 2. Найти минимальное число
 // 3. Найти есть ли в этом массиве число 3
 
-const arr = [];
-for (let i = 0; i < 5; i++) {
-  const elements = Math.floor(Math.random() * 10);
-  arr.push(elements);
-}
-console.log(arr);
+// const arr = [];
+// for (let i = 0; i < 5; i++) {
+//   const elements = Math.floor(Math.random() * 10);
+//   arr.push(elements);
+// }
+// console.log(arr);
 
-// 1.
-const sumOfNumbers = arr.reduce((acc, number) => acc + number, 0);
-console.log('Сумма элементов массива: ' + sumOfNumbers);
+// // 1.
+// const sumOfNumbers = arr.reduce((acc, number) => acc + number, 0);
+// console.log('Сумма элементов массива: ' + sumOfNumbers);
 
-// 2. 
-let minNumber = arr[0];
-for (let j of arr) {
-    if (j < minNumber) {
-        minNumber = j;
-    }
-}
-console.log('Минимальное число в массиве: ' + minNumber);
+// // 2. 
+// let minNumber = arr[0];
+// for (let j of arr) {
+//     if (j < minNumber) {
+//         minNumber = j;
+//     }
+// }
+// console.log('Минимальное число в массиве: ' + minNumber);
 
-// 3. 
-for (let k = 0; k < arr.length; k++) {
+// // 3. 
+// for (let k = 0; k < arr.length; k++) {
     
-    if (arr[k] === 3) {
-        console.log('В массиве есть число 3');
-        break;
-    } 
-}
+//     if (arr[k] === 3) {
+//         console.log('В массиве есть число 3');
+//         break;
+//     } 
+// }
 
 // *Необязательное задание. *
 // Необходимо вывести горку в консоль (используя цикл for), как показано на рисунке, только у вашей горки должно быть 20 рядов, а не 5:
@@ -69,3 +69,8 @@ for (let k = 0; k < arr.length; k++) {
 // xxx
 // xxxx
 // xxxxx
+
+// let str = '';
+// for (let i = 0; i < 20; i++) {
+// console.log(str += 'x');
+// }
