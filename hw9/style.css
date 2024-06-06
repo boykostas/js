@@ -1,0 +1,22 @@
+.message {
+  visibility: hidden;
+}
+
+.animate_animated .animate_fadeInLeftBig {
+  animation: fadeInLeftBig 1s both;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
