@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.featured-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: calc(33.333% - 40px);
+  box-sizing: border-box;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item h3 {
+  margin: 10px 0;
+}
+
+.product-item p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.product-item .price {
+  color: #000;
+  font-weight: bold;
+}
